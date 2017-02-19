@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4600D3B5173EB27500196DBD /* EMTrainRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4600D3B3173EB27500196DBD /* EMTrainRouteViewController.m */; };
+		4600D3B6173EB27500196DBD /* EMTrainRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4600D3B4173EB27500196DBD /* EMTrainRouteViewController.xib */; };
+		4600D3BC173EC4FA00196DBD /* EMRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4600D3BB173EC4FA00196DBD /* EMRouteView.m */; };
+		4600D3C1173ED93F00196DBD /* EMRouteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4600D3C0173ED93F00196DBD /* EMRouteTableViewCell.m */; };
+		4600D3C3173ED97800196DBD /* EMRouteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4600D3C2173ED97800196DBD /* EMRouteTableViewCell.xib */; };
+		460A6E25173E504C003C0F60 /* EMGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 460A6E24173E504B003C0F60 /* EMGraph.m */; };
+		460A6E2A173E51C9003C0F60 /* EMStationPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 460A6E29173E51C9003C0F60 /* EMStationPath.m */; };
+		4652A686173D58B400589024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A685173D58B400589024 /* UIKit.framework */; };
+		4652A688173D58B400589024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A687173D58B400589024 /* Foundation.framework */; };
+		4652A68A173D58B400589024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A689173D58B400589024 /* CoreGraphics.framework */; };
+		4652A690173D58B400589024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4652A68E173D58B400589024 /* InfoPlist.strings */; };
+		4652A692173D58B400589024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A691173D58B400589024 /* main.m */; };
+		4652A696173D58B400589024 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A695173D58B400589024 /* EMAppDelegate.m */; };
+		4652A69E173D58B400589024 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A69D173D58B400589024 /* SenTestingKit.framework */; };
+		4652A69F173D58B400589024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A685173D58B400589024 /* UIKit.framework */; };
+		4652A6A0173D58B400589024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4652A687173D58B400589024 /* Foundation.framework */; };
+		4652A6A8173D58B400589024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4652A6A6173D58B400589024 /* InfoPlist.strings */; };
+		4652A6AB173D58B400589024 /* EasyMetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6AA173D58B400589024 /* EasyMetroTests.m */; };
+		4652A6BD173D594600589024 /* EMStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6BC173D594600589024 /* EMStation.m */; };
+		4652A6C0173D595100589024 /* EMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6BF173D595100589024 /* EMLine.m */; };
+		4652A6C8173D644300589024 /* EMRedLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6C7173D644300589024 /* EMRedLine.m */; };
+		4652A6CB173D71D300589024 /* EMGreenLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6CA173D71D200589024 /* EMGreenLine.m */; };
+		4652A6CE173D71E800589024 /* EMYellowLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6CD173D71E800589024 /* EMYellowLine.m */; };
+		4652A6D1173D71FD00589024 /* EMBlackLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6D0173D71FB00589024 /* EMBlackLine.m */; };
+		4652A6D4173D721B00589024 /* EMBlueLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6D3173D721B00589024 /* EMBlueLine.m */; };
+		4652A6D7173D7B4D00589024 /* EMMetroMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652A6D6173D7B4D00589024 /* EMMetroMap.m */; };
+		46DD2BD217428E4B00D81D6B /* barButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DD2BCD17428E4B00D81D6B /* barButtonImage.png */; };
+		46DD2BD317428E4B00D81D6B /* metroMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DD2BCE17428E4B00D81D6B /* metroMap.png */; };
+		46DD2BD417428E4B00D81D6B /* navigationBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DD2BCF17428E4B00D81D6B /* navigationBG.png */; };
+		46DD2BD517428E4B00D81D6B /* startend.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DD2BD017428E4B00D81D6B /* startend.png */; };
+		46DD2BD617428E4B00D81D6B /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DD2BD117428E4B00D81D6B /* stop.png */; };
+		46E3E099173FF8840088CD31 /* EMMetroMapDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3E097173FF8830088CD31 /* EMMetroMapDisplayViewController.m */; };
+		46E3E09A173FF8840088CD31 /* EMMetroMapDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E3E098173FF8830088CD31 /* EMMetroMapDisplayViewController.xib */; };
+		46E3E0A2174012430088CD31 /* EMSearchStationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3E09D173FFE3C0088CD31 /* EMSearchStationListViewController.m */; };
+		46E3E0AB174039A80088CD31 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3E0AA174039A80088CD31 /* Utility.m */; };
+		46F6D856173FAF5200DD1A46 /* EMRouteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F6D855173FAF5200DD1A46 /* EMRouteNode.m */; };
+		46F6D85E173FB20500DD1A46 /* EMRouteEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F6D85D173FB20500DD1A46 /* EMRouteEnumerator.m */; };
+		69F935141E5556FA00C9CEA4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F935131E5556FA00C9CEA4 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4652A6A1173D58B400589024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4652A678173D58B400589024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4652A680173D58B400589024;
+			remoteInfo = EasyMetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4600D3B2173EB27500196DBD /* EMTrainRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTrainRouteViewController.h; sourceTree = "<group>"; };
+		4600D3B3173EB27500196DBD /* EMTrainRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTrainRouteViewController.m; sourceTree = "<group>"; };
+		4600D3B4173EB27500196DBD /* EMTrainRouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMTrainRouteViewController.xib; sourceTree = "<group>"; };
+		4600D3BA173EC4FA00196DBD /* EMRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteView.h; sourceTree = "<group>"; };
+		4600D3BB173EC4FA00196DBD /* EMRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteView.m; sourceTree = "<group>"; };
+		4600D3BF173ED93F00196DBD /* EMRouteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteTableViewCell.h; sourceTree = "<group>"; };
+		4600D3C0173ED93F00196DBD /* EMRouteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteTableViewCell.m; sourceTree = "<group>"; };
+		4600D3C2173ED97800196DBD /* EMRouteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMRouteTableViewCell.xib; sourceTree = "<group>"; };
+		4600D3C4173EF13F00196DBD /* EMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConstants.h; sourceTree = "<group>"; };
+		460A6E23173E504A003C0F60 /* EMGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGraph.h; sourceTree = "<group>"; };
+		460A6E24173E504B003C0F60 /* EMGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGraph.m; sourceTree = "<group>"; };
+		460A6E28173E51C8003C0F60 /* EMStationPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStationPath.h; sourceTree = "<group>"; };
+		460A6E29173E51C9003C0F60 /* EMStationPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStationPath.m; sourceTree = "<group>"; };
+		4652A681173D58B400589024 /* EasyMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4652A685173D58B400589024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4652A687173D58B400589024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4652A689173D58B400589024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4652A68D173D58B400589024 /* EasyMetro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMetro-Info.plist"; sourceTree = "<group>"; };
+		4652A68F173D58B400589024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4652A691173D58B400589024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4652A693173D58B400589024 /* EasyMetro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyMetro-Prefix.pch"; sourceTree = "<group>"; };
+		4652A694173D58B400589024 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		4652A695173D58B400589024 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		4652A69C173D58B400589024 /* EasyMetroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMetroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4652A69D173D58B400589024 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4652A6A5173D58B400589024 /* EasyMetroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMetroTests-Info.plist"; sourceTree = "<group>"; };
+		4652A6A7173D58B400589024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4652A6A9173D58B400589024 /* EasyMetroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyMetroTests.h; sourceTree = "<group>"; };
+		4652A6AA173D58B400589024 /* EasyMetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyMetroTests.m; sourceTree = "<group>"; };
+		4652A6BB173D594600589024 /* EMStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStation.h; sourceTree = "<group>"; };
+		4652A6BC173D594600589024 /* EMStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStation.m; sourceTree = "<group>"; };
+		4652A6BE173D595100589024 /* EMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLine.h; sourceTree = "<group>"; };
+		4652A6BF173D595100589024 /* EMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLine.m; sourceTree = "<group>"; };
+		4652A6C6173D644300589024 /* EMRedLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRedLine.h; sourceTree = "<group>"; };
+		4652A6C7173D644300589024 /* EMRedLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRedLine.m; sourceTree = "<group>"; };
+		4652A6C9173D71D200589024 /* EMGreenLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGreenLine.h; sourceTree = "<group>"; };
+		4652A6CA173D71D200589024 /* EMGreenLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGreenLine.m; sourceTree = "<group>"; };
+		4652A6CC173D71E700589024 /* EMYellowLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMYellowLine.h; sourceTree = "<group>"; };
+		4652A6CD173D71E800589024 /* EMYellowLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMYellowLine.m; sourceTree = "<group>"; };
+		4652A6CF173D71FA00589024 /* EMBlackLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBlackLine.h; sourceTree = "<group>"; };
+		4652A6D0173D71FB00589024 /* EMBlackLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBlackLine.m; sourceTree = "<group>"; };
+		4652A6D2173D721A00589024 /* EMBlueLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBlueLine.h; sourceTree = "<group>"; };
+		4652A6D3173D721B00589024 /* EMBlueLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBlueLine.m; sourceTree = "<group>"; };
+		4652A6D5173D7B4D00589024 /* EMMetroMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMetroMap.h; sourceTree = "<group>"; };
+		4652A6D6173D7B4D00589024 /* EMMetroMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMetroMap.m; sourceTree = "<group>"; };
+		46DD2BCD17428E4B00D81D6B /* barButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barButtonImage.png; path = images/barButtonImage.png; sourceTree = SOURCE_ROOT; };
+		46DD2BCE17428E4B00D81D6B /* metroMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metroMap.png; path = images/metroMap.png; sourceTree = SOURCE_ROOT; };
+		46DD2BCF17428E4B00D81D6B /* navigationBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigationBG.png; path = images/navigationBG.png; sourceTree = SOURCE_ROOT; };
+		46DD2BD017428E4B00D81D6B /* startend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startend.png; path = images/startend.png; sourceTree = SOURCE_ROOT; };
+		46DD2BD117428E4B00D81D6B /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = images/stop.png; sourceTree = SOURCE_ROOT; };
+		46E3E092173FF6150088CD31 /* EMSearchStationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSearchStationListViewController.h; sourceTree = "<group>"; };
+		46E3E096173FF8830088CD31 /* EMMetroMapDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMetroMapDisplayViewController.h; sourceTree = "<group>"; };
+		46E3E097173FF8830088CD31 /* EMMetroMapDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMetroMapDisplayViewController.m; sourceTree = "<group>"; };
+		46E3E098173FF8830088CD31 /* EMMetroMapDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMMetroMapDisplayViewController.xib; sourceTree = "<group>"; };
+		46E3E09D173FFE3C0088CD31 /* EMSearchStationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSearchStationListViewController.m; sourceTree = "<group>"; };
+		46E3E0A9174039A80088CD31 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		46E3E0AA174039A80088CD31 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		46F6D854173FAF5200DD1A46 /* EMRouteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteNode.h; sourceTree = "<group>"; };
+		46F6D855173FAF5200DD1A46 /* EMRouteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteNode.m; sourceTree = "<group>"; };
+		46F6D85C173FB20500DD1A46 /* EMRouteEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteEnumerator.h; sourceTree = "<group>"; };
+		46F6D85D173FB20500DD1A46 /* EMRouteEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteEnumerator.m; sourceTree = "<group>"; };
+		69F935131E5556FA00C9CEA4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4652A67E173D58B400589024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A686173D58B400589024 /* UIKit.framework in Frameworks */,
+				4652A688173D58B400589024 /* Foundation.framework in Frameworks */,
+				4652A68A173D58B400589024 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4652A698173D58B400589024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A69E173D58B400589024 /* SenTestingKit.framework in Frameworks */,
+				4652A69F173D58B400589024 /* UIKit.framework in Frameworks */,
+				4652A6A0173D58B400589024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460A6E27173E5064003C0F60 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				460A6E23173E504A003C0F60 /* EMGraph.h */,
+				460A6E24173E504B003C0F60 /* EMGraph.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		4652A676173D58B400589024 = {
+			isa = PBXGroup;
+			children = (
+				4652A68B173D58B400589024 /* EasyMetro */,
+				4652A6A3173D58B400589024 /* EasyMetroTests */,
+				4652A684173D58B400589024 /* Frameworks */,
+				4652A682173D58B400589024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4652A682173D58B400589024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4652A681173D58B400589024 /* EasyMetro.app */,
+				4652A69C173D58B400589024 /* EasyMetroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4652A684173D58B400589024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4652A685173D58B400589024 /* UIKit.framework */,
+				4652A687173D58B400589024 /* Foundation.framework */,
+				4652A689173D58B400589024 /* CoreGraphics.framework */,
+				4652A69D173D58B400589024 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4652A68B173D58B400589024 /* EasyMetro */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6B4173D58E000589024 /* Classes */,
+				46E3E0B217404BD00088CD31 /* Resources */,
+				4652A68C173D58B400589024 /* Supporting Files */,
+			);
+			path = EasyMetro;
+			sourceTree = "<group>";
+		};
+		4652A68C173D58B400589024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4652A68D173D58B400589024 /* EasyMetro-Info.plist */,
+				4652A68E173D58B400589024 /* InfoPlist.strings */,
+				4652A691173D58B400589024 /* main.m */,
+				4652A693173D58B400589024 /* EasyMetro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4652A6A3173D58B400589024 /* EasyMetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6A9173D58B400589024 /* EasyMetroTests.h */,
+				4652A6AA173D58B400589024 /* EasyMetroTests.m */,
+				4652A6A4173D58B400589024 /* Supporting Files */,
+			);
+			path = EasyMetroTests;
+			sourceTree = "<group>";
+		};
+		4652A6A4173D58B400589024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6A5173D58B400589024 /* EasyMetroTests-Info.plist */,
+				4652A6A6173D58B400589024 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4652A6B4173D58E000589024 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4652A694173D58B400589024 /* EMAppDelegate.h */,
+				4652A695173D58B400589024 /* EMAppDelegate.m */,
+				4600D3C4173EF13F00196DBD /* EMConstants.h */,
+				4652A6B6173D58FF00589024 /* Models */,
+				4652A6B7173D590900589024 /* Views */,
+				4652A6B5173D58F600589024 /* Controllers */,
+				46E3E0A8174039730088CD31 /* Utilities */,
+				46F6D85B173FB1DC00DD1A46 /* Helpers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4652A6B5173D58F600589024 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4600D3B2173EB27500196DBD /* EMTrainRouteViewController.h */,
+				4600D3B3173EB27500196DBD /* EMTrainRouteViewController.m */,
+				46E3E096173FF8830088CD31 /* EMMetroMapDisplayViewController.h */,
+				46E3E097173FF8830088CD31 /* EMMetroMapDisplayViewController.m */,
+				46E3E092173FF6150088CD31 /* EMSearchStationListViewController.h */,
+				46E3E09D173FFE3C0088CD31 /* EMSearchStationListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4652A6B6173D58FF00589024 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6BA173D593400589024 /* Stations */,
+				4652A6B9173D592C00589024 /* Lines */,
+				4652A6B8173D592100589024 /* Map */,
+				460A6E27173E5064003C0F60 /* Graph */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4652A6B7173D590900589024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4600D3BA173EC4FA00196DBD /* EMRouteView.h */,
+				4600D3BB173EC4FA00196DBD /* EMRouteView.m */,
+				4600D3BF173ED93F00196DBD /* EMRouteTableViewCell.h */,
+				4600D3C0173ED93F00196DBD /* EMRouteTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4652A6B8173D592100589024 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6D5173D7B4D00589024 /* EMMetroMap.h */,
+				4652A6D6173D7B4D00589024 /* EMMetroMap.m */,
+				46F6D854173FAF5200DD1A46 /* EMRouteNode.h */,
+				46F6D855173FAF5200DD1A46 /* EMRouteNode.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		4652A6B9173D592C00589024 /* Lines */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6BE173D595100589024 /* EMLine.h */,
+				4652A6BF173D595100589024 /* EMLine.m */,
+				4652A6C6173D644300589024 /* EMRedLine.h */,
+				4652A6C7173D644300589024 /* EMRedLine.m */,
+				4652A6C9173D71D200589024 /* EMGreenLine.h */,
+				4652A6CA173D71D200589024 /* EMGreenLine.m */,
+				4652A6CC173D71E700589024 /* EMYellowLine.h */,
+				4652A6CD173D71E800589024 /* EMYellowLine.m */,
+				4652A6CF173D71FA00589024 /* EMBlackLine.h */,
+				4652A6D0173D71FB00589024 /* EMBlackLine.m */,
+				4652A6D2173D721A00589024 /* EMBlueLine.h */,
+				4652A6D3173D721B00589024 /* EMBlueLine.m */,
+			);
+			name = Lines;
+			sourceTree = "<group>";
+		};
+		4652A6BA173D593400589024 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				4652A6BB173D594600589024 /* EMStation.h */,
+				4652A6BC173D594600589024 /* EMStation.m */,
+				460A6E28173E51C8003C0F60 /* EMStationPath.h */,
+				460A6E29173E51C9003C0F60 /* EMStationPath.m */,
+			);
+			name = Stations;
+			sourceTree = "<group>";
+		};
+		46E3E0A117400F050088CD31 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				46DD2BCD17428E4B00D81D6B /* barButtonImage.png */,
+				46DD2BCE17428E4B00D81D6B /* metroMap.png */,
+				46DD2BCF17428E4B00D81D6B /* navigationBG.png */,
+				46DD2BD017428E4B00D81D6B /* startend.png */,
+				46DD2BD117428E4B00D81D6B /* stop.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		46E3E0A8174039730088CD31 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46E3E0A9174039A80088CD31 /* Utility.h */,
+				46E3E0AA174039A80088CD31 /* Utility.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		46E3E0B217404BD00088CD31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46E3E0B317404DF00088CD31 /* xibs */,
+				46E3E0A117400F050088CD31 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46E3E0B317404DF00088CD31 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				4600D3C2173ED97800196DBD /* EMRouteTableViewCell.xib */,
+				4600D3B4173EB27500196DBD /* EMTrainRouteViewController.xib */,
+				46E3E098173FF8830088CD31 /* EMMetroMapDisplayViewController.xib */,
+				69F935131E5556FA00C9CEA4 /* Launch Screen.storyboard */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		46F6D85B173FB1DC00DD1A46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46F6D85C173FB20500DD1A46 /* EMRouteEnumerator.h */,
+				46F6D85D173FB20500DD1A46 /* EMRouteEnumerator.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4652A680173D58B400589024 /* EasyMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4652A6AE173D58B400589024 /* Build configuration list for PBXNativeTarget "EasyMetro" */;
+			buildPhases = (
+				4652A67D173D58B400589024 /* Sources */,
+				4652A67E173D58B400589024 /* Frameworks */,
+				4652A67F173D58B400589024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMetro;
+			productName = EasyMetro;
+			productReference = 4652A681173D58B400589024 /* EasyMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4652A69B173D58B400589024 /* EasyMetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4652A6B1173D58B400589024 /* Build configuration list for PBXNativeTarget "EasyMetroTests" */;
+			buildPhases = (
+				4652A697173D58B400589024 /* Sources */,
+				4652A698173D58B400589024 /* Frameworks */,
+				4652A699173D58B400589024 /* Resources */,
+				4652A69A173D58B400589024 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4652A6A2173D58B400589024 /* PBXTargetDependency */,
+			);
+			name = EasyMetroTests;
+			productName = EasyMetroTests;
+			productReference = 4652A69C173D58B400589024 /* EasyMetroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4652A678173D58B400589024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4652A67B173D58B400589024 /* Build configuration list for PBXProject "EasyMetro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4652A676173D58B400589024;
+			productRefGroup = 4652A682173D58B400589024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4652A680173D58B400589024 /* EasyMetro */,
+				4652A69B173D58B400589024 /* EasyMetroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4652A67F173D58B400589024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A690173D58B400589024 /* InfoPlist.strings in Resources */,
+				4600D3B6173EB27500196DBD /* EMTrainRouteViewController.xib in Resources */,
+				4600D3C3173ED97800196DBD /* EMRouteTableViewCell.xib in Resources */,
+				46E3E09A173FF8840088CD31 /* EMMetroMapDisplayViewController.xib in Resources */,
+				46DD2BD217428E4B00D81D6B /* barButtonImage.png in Resources */,
+				46DD2BD317428E4B00D81D6B /* metroMap.png in Resources */,
+				46DD2BD417428E4B00D81D6B /* navigationBG.png in Resources */,
+				46DD2BD517428E4B00D81D6B /* startend.png in Resources */,
+				69F935141E5556FA00C9CEA4 /* Launch Screen.storyboard in Resources */,
+				46DD2BD617428E4B00D81D6B /* stop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4652A699173D58B400589024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A6A8173D58B400589024 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4652A69A173D58B400589024 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4652A67D173D58B400589024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A692173D58B400589024 /* main.m in Sources */,
+				4652A696173D58B400589024 /* EMAppDelegate.m in Sources */,
+				4652A6BD173D594600589024 /* EMStation.m in Sources */,
+				4652A6C0173D595100589024 /* EMLine.m in Sources */,
+				4652A6C8173D644300589024 /* EMRedLine.m in Sources */,
+				4652A6CB173D71D300589024 /* EMGreenLine.m in Sources */,
+				4652A6CE173D71E800589024 /* EMYellowLine.m in Sources */,
+				4652A6D1173D71FD00589024 /* EMBlackLine.m in Sources */,
+				4652A6D4173D721B00589024 /* EMBlueLine.m in Sources */,
+				4652A6D7173D7B4D00589024 /* EMMetroMap.m in Sources */,
+				460A6E25173E504C003C0F60 /* EMGraph.m in Sources */,
+				460A6E2A173E51C9003C0F60 /* EMStationPath.m in Sources */,
+				4600D3B5173EB27500196DBD /* EMTrainRouteViewController.m in Sources */,
+				4600D3BC173EC4FA00196DBD /* EMRouteView.m in Sources */,
+				4600D3C1173ED93F00196DBD /* EMRouteTableViewCell.m in Sources */,
+				46F6D856173FAF5200DD1A46 /* EMRouteNode.m in Sources */,
+				46F6D85E173FB20500DD1A46 /* EMRouteEnumerator.m in Sources */,
+				46E3E099173FF8840088CD31 /* EMMetroMapDisplayViewController.m in Sources */,
+				46E3E0A2174012430088CD31 /* EMSearchStationListViewController.m in Sources */,
+				46E3E0AB174039A80088CD31 /* Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4652A697173D58B400589024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4652A6AB173D58B400589024 /* EasyMetroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4652A6A2173D58B400589024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4652A680173D58B400589024 /* EasyMetro */;
+			targetProxy = 4652A6A1173D58B400589024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4652A68E173D58B400589024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4652A68F173D58B400589024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4652A6A6173D58B400589024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4652A6A7173D58B400589024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4652A6AC173D58B400589024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4652A6AD173D58B400589024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4652A6AF173D58B400589024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetro/EasyMetro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AT.EasyMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4652A6B0173D58B400589024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetro/EasyMetro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AT.EasyMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4652A6B2173D58B400589024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyMetro.app/EasyMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetroTests/EasyMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4652A6B3173D58B400589024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyMetro.app/EasyMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetroTests/EasyMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4652A67B173D58B400589024 /* Build configuration list for PBXProject "EasyMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4652A6AC173D58B400589024 /* Debug */,
+				4652A6AD173D58B400589024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4652A6AE173D58B400589024 /* Build configuration list for PBXNativeTarget "EasyMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4652A6AF173D58B400589024 /* Debug */,
+				4652A6B0173D58B400589024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4652A6B1173D58B400589024 /* Build configuration list for PBXNativeTarget "EasyMetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4652A6B2173D58B400589024 /* Debug */,
+				4652A6B3173D58B400589024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4652A678173D58B400589024 /* Project object */;
+}

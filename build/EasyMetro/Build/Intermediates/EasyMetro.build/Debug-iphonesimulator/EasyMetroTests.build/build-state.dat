@@ -1,0 +1,332 @@
+TEasyMetroTests
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist" EasyMetroTests/EasyMetroTests-Info.plist
+cProcessPCH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth" EasyMetro/EasyMetro-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests" normal i386
+cGenerateDSYMFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM" "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests"
+cCopyStringsFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj/InfoPlist.strings" EasyMetroTests/en.lproj/InfoPlist.strings
+cPhaseScriptExecution "Run Script" "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh"
+cTouch "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest"
+
+N/Developer/Library/Frameworks/SenTestingKit.framework/SenTestingKit
+c000000004E7BF993000000000002CB20
+t1316747667
+s183072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F75CDAC0000000000000110
+t1333120428
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
+c000000004E72FEC30000000000000E25
+t1316159171
+s3621
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenInterfaceTestCase.h
+c000000004E72FEC30000000000000701
+t1316159171
+s1793
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h
+c000000004E72FEC3000000000000084C
+t1316159171
+s2124
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h
+c000000004E72FEC3000000000000167B
+t1316159171
+s5755
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCaseRun.h
+c000000004E72FEC30000000000000875
+t1316159171
+s2165
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase_Macros.h
+c000000004E72FEC30000000000007F41
+t1316159171
+s32577
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h
+c000000004E72FEC30000000000000947
+t1316159171
+s2375
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDistributedNotifier.h
+c000000004E72FEC30000000000000800
+t1316159171
+s2048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestLog.h
+c000000004E72FEC3000000000000079D
+t1316159171
+s1949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestObserver.h
+c000000004E72FEC30000000000000A6C
+t1316159171
+s2668
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestProbe.h
+c000000004E72FEC30000000000000AD1
+t1316159171
+s2769
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestRun.h
+c000000004E72FEC30000000000000A79
+t1316159171
+s2681
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuite.h
+c000000004E72FEC30000000000000CCF
+t1316159171
+s3279
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuiteRun.h
+c000000004E72FEC300000000000007E1
+t1316159171
+s2017
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c000000004E72FEC300000000000008A5
+t1316159171
+s2213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingUtilities.h
+c000000004E72FEC30000000000000C37
+t1316159171
+s3127
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMBlackLine.h
+c00000000518D3AE400000000000000F2
+t1368210148
+s242
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMBlueLine.h
+c00000000518D3AE900000000000000F0
+t1368210153
+s240
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMConstants.h
+c000000005194167F0000000000000601
+t1368659583
+s1537
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMGraph.h
+c000000005190C957000000000000038B
+t1368443223
+s907
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMGreenLine.h
+c00000000518D3ADA00000000000000F2
+t1368210138
+s242
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMLine.h
+c0000000051C72F920000000000000247
+t1372008338
+s583
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMMetroMap.h
+c0000000051C72D1F00000000000004B0
+t1372007711
+s1200
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMRedLine.h
+c00000000518D34D200000000000000EE
+t1368208594
+s238
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMRouteEnumerator.h
+c00000000519089F6000000000000017E
+t1368426998
+s382
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMRouteNode.h
+c00000000518F79E40000000000000273
+t1368357348
+s627
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMStation.h
+c00000000518EB16D000000000000025F
+t1368306029
+s607
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMStationPath.h
+c00000000518F73860000000000000235
+t1368355718
+s565
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EMYellowLine.h
+c00000000518D3ADF00000000000000F4
+t1368210143
+s244
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EasyMetro-Prefix.pch
+c00000000518EBA56000000000000015D
+t1368308310
+s349
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.h
+c000000005190CE0A000000000000012B
+t1368444426
+s299
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m
+c0000000051C72F1B0000000000000FD8
+t1372008219
+s4056
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/en.lproj/InfoPlist.strings
+c00000000518D2134000000000000002D
+t1368203572
+s45
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.LinkFileList
+c0000000051C72E8F00000000000000B7
+t1372008079
+s183
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o
+t1372008711
+s24380
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh
+c0000000051C72E8F0000000000000062
+t1372008079
+s98
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth
+t1372008080
+s3917040
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest
+t1372008712
+s170
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM
+t1372008711
+s102
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests
+t1372008711
+s19436
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist
+t1372008079
+s514
+
+N/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj/InfoPlist.strings
+t1372008080
+s42
+
+NEasyMetroTests/EasyMetroTests-Info.plist
+c00000000518D213400000000000002B8
+t1368203572
+s696
+
+CBuild AST from "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbf984d8a6877b741^fbaf4f8a6877b741^---0#1#0#--18"Check dependencies36"34E5F9DD-D59F-4681-BF2A-F64AC45F1443-
+
+CCompileC build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s393701511.756887
+e393701511.877016
+r1
+xCompileC
+xbuild/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.mabeac1876877b741^0b98e0876877b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/abhishek/Desktop/EasyMetro%20Source/EasyMetro/EasyMetroTests/EasyMetroTests.m0000000000000000^3518"CompileC build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o EasyMetroTests/EasyMetroTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-generated-files.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-own-target-headers.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-all-target-headers.hmap" -iquote "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-project-headers.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/include" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources/i386" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources" "-F/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator" -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -include "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch" -MMD -MT dependencies -MF "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.d" -c "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests.m" -o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.o"36"E80868A3-2273-49EA-B684-8781B2647F26-
+
+CCopyStringsFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj/InfoPlist.strings" EasyMetroTests/en.lproj/InfoPlist.strings
+s393700880.478446
+e393700880.489768
+r1
+xCopyStringsFile
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj/InfoPlist.strings
+xEasyMetroTests/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy EasyMetroTests/en.lproj/InfoPlist.strings118d7a106677b741^7a6e7d106677b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/abhishek/Desktop/EasyMetro%20Source/EasyMetro/EasyMetroTests/en.lproj/InfoPlist.strings0000000000000000^623"CopyStringsFile build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj/InfoPlist.strings EasyMetroTests/en.lproj/InfoPlist.strings    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/en.lproj" -- EasyMetroTests/en.lproj/InfoPlist.strings36"FD26ACAF-EE0F-4056-A6B1-8C0DB37B55BC-
+
+CGenerateDSYMFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM" "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests"
+s393701511.921952
+e393701511.945217
+r1
+xGenerateDSYMFile
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Generating /Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYMd718ec876877b741^90f8f1876877b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/abhishek/Desktop/EasyMetro%20Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM/0000000000000000^689"GenerateDSYMFile build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests" -o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest.dSYM"36"F265FB03-DC95-4A50-B1F0-E3B6D5B47B98-
+
+CLd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests" normal i386
+s393701511.879119
+e393701511.920198
+r1
+xLd
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Link /Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTestsee25e1876877b741^ff93eb876877b741^---0#0#0#--1676"Ld build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests normal i386    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk "-L/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator" "-F/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator" -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -filelist "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.LinkFileList" -mmacosx-version-min=10.6 -bundle_loader "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetro.app/EasyMetro" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework SenTestingKit -framework UIKit -framework Foundation -o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/EasyMetroTests"36"1FF3F55B-3A1F-4751-BD1E-4640EAC60B6C-
+
+CPhaseScriptExecution "Run Script" "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh"
+s393701514.336265
+e393701514.375744
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh
+o/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'bc74578a6877b741^bf44608a6877b741^-122"/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.1(21%IDEActivityLogMessage2@81"RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.-393701514#0#122#-0#-23%DVTTextDocumentLocation3@45"file://localhost/Developer/Tools/RunUnitTests0000000000000000^67#18446744073709551615#67#18446744073709551615#18446744073709551615#0#30"Shell Script Invocation Notice--0#0#0#--20492"PhaseScriptExecution "Run Script" build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER abhishek    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products"    setenv BUILD_ROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator"    setenv BUNDLE_LOADER "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetro.app/EasyMetro"    setenv CACHE_ROOT /var/folders/x6/x6DWuN+CEQaNTdHRobT78++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/x6/x6DWuN+CEQaNTdHRobT78++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLASS_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/x6/x6DWuN+CEQaNTdHRobT78++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH EasyMetroTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH EasyMetroTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/EasyMetro.dst    setenv DWARF_DSYM_FILE_NAME EasyMetroTests.octest.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH EasyMetroTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH EasyMetroTests.octest    setenv EXECUTABLE_NAME EasyMetroTests    setenv EXECUTABLE_PATH EasyMetroTests.octest/EasyMetroTests    setenv FILE_LIST "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH EasyMetroTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator\" /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME EasyMetroTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER EasyMetro/EasyMetro-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_MISSING_PROTOTYPES YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE EasyMetroTests/EasyMetroTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH EasyMetroTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH EasyMetroTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/EasyMetro.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER abhishek    setenv INSTALL_ROOT /tmp/EasyMetro.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH EasyMetroTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-LinkMap-normal-i386.txt"    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal/i386/EasyMetroTests.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH EasyMetroTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K549    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Objects-normal"    setenv OBJROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH EasyMetroTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/PkgInfo"    setenv PKGINFO_PATH EasyMetroTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH EasyMetroTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH EasyMetroTests.octest/PrivateHeaders    setenv PRODUCT_NAME EasyMetroTests    setenv PRODUCT_SETTINGS_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetroTests/EasyMetroTests-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT EasyMetro    setenv PROJECT_DERIVED_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/DerivedSources"    setenv PROJECT_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv PROJECT_FILE_PATH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro.xcodeproj"    setenv PROJECT_NAME EasyMetro    setenv PROJECT_TEMP_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build"    setenv PUBLIC_HEADERS_FOLDER_PATH EasyMetroTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH EasyMetroTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_NAME iphonesimulator5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH EasyMetroTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders"    setenv SHARED_SUPPORT_FOLDER_PATH EasyMetroTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv SRCROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME EasyMetroTests    setenv TARGET_BUILD_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator"    setenv TARGET_NAME EasyMetroTests    setenv TARGET_TEMP_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build"    setenv TEMP_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build"    setenv TEMP_FILES_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build"    setenv TEMP_FILE_DIR "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build"    setenv TEMP_ROOT "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates"    setenv TEST_AFTER_BUILD NO    setenv TEST_HOST "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetro.app/EasyMetro"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH EasyMetroTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER abhishek    setenv USER_APPS_DIR /Users/abhishek/Applications    setenv USER_LIBRARY_DIR /Users/abhishek/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH EasyMetroTests.octest/version.plist    setenv VERSION_INFO_BUILDER abhishek    setenv VERSION_INFO_FILE EasyMetroTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:EasyMetroTests  PROJECT:EasyMetro-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME EasyMetroTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4C199    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/Script-4652A69A173D58B400589024.sh\""36"4F12333A-F571-42E2-B918-A040E4F8A4D3-
+
+CProcessInfoPlistFile "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist" EasyMetroTests/EasyMetroTests-Info.plist
+s393700879.813381
+e393700879.818307
+r1
+xProcessInfoPlistFile
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist
+xEasyMetroTests/EasyMetroTests-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process EasyMetroTests/EasyMetroTests-Info.plistb24bd00f6677b741^5b7dd10f6677b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/abhishek/Desktop/EasyMetro%20Source/EasyMetro/EasyMetroTests/EasyMetroTests-Info.plist0000000000000000^613"ProcessInfoPlistFile build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist EasyMetroTests/EasyMetroTests-Info.plist    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EasyMetroTests/EasyMetroTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest/Info.plist"36"23DFCC96-3BEF-411E-8887-7DEB1DA7C092-
+
+CProcessPCH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth" EasyMetro/EasyMetro-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s393700879.821974
+e393700880.245189
+r1
+xProcessPCH
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth
+xEasyMetro/EasyMetro-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile EasyMetro/EasyMetro-Prefix.pch66a0d20f6677b741^9fc93e106677b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/abhishek/Desktop/EasyMetro%20Source/EasyMetro/EasyMetro/EasyMetro-Prefix.pch0000000000000000^3293"ProcessPCH build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth EasyMetro/EasyMetro-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-generated-files.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-own-target-headers.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-all-target-headers.hmap" -iquote "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/EasyMetroTests-project-headers.hmap" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/include" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources/i386" "-I/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Intermediates/EasyMetro.build/Debug-iphonesimulator/EasyMetroTests.build/DerivedSources" "-F/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator" -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/Developer/Library/Frameworks -c "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/EasyMetro/EasyMetro-Prefix.pch" -o "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/PrecompiledHeaders/EasyMetro-Prefix-amboraugdrmcrshkpokrtdkftbnu/EasyMetro-Prefix.pch.d"36"D988D1B7-70F8-4935-AC1C-0C9942472CD0-
+
+CProcessPCH "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Index/PrecompiledHeaders/EasyMetro-Prefix-coirzqnahjrduhbreoyljwevojyz_ast/EasyMetro-Prefix.pch.pth" EasyMetro/EasyMetro-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest"
+s393701512.006942
+e393701512.023921
+r1
+xTouch
+x/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Touch /Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octestaaba03886877b741^1a1706886877b741^---0#0#0#--422"Touch build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest    cd "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/abhishek/Desktop/EasyMetro Source/EasyMetro/build/EasyMetro/Build/Products/Debug-iphonesimulator/EasyMetroTests.octest"36"4660DB24-61F3-4DF2-93BD-9AF60FBBB528-
+

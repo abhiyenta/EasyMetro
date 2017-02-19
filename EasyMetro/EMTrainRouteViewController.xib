@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EMTrainRouteViewController">
+            <connections>
+                <outlet property="fareLable" destination="19" id="Q2z-Dw-8Zr"/>
+                <outlet property="fromField" destination="10" id="IA2-nr-oOP"/>
+                <outlet property="routeSelctionBacgroundView" destination="18" id="k1T-8C-MJ6"/>
+                <outlet property="routeTableVIew" destination="5" id="Bop-e8-yJy"/>
+                <outlet property="stationTextFieldBackgroundView" destination="4" id="Pfh-Au-ZwP"/>
+                <outlet property="toField" destination="11" id="BOS-IL-Oc3"/>
+                <outlet property="totalTimeLabel" destination="20" id="mQM-AT-jZe"/>
+                <outlet property="view" destination="1" id="Wqj-6M-gEQ"/>
+                <outlet property="welcomeNoteLabel" destination="23" id="QuI-ot-47T"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="navigationBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="0.0" y="64" width="375" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="jdU-ed-ypx"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="navigationBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Rg4-CS-nxy"/>
+                    </constraints>
+                </imageView>
+                <tableView contentMode="scaleToFill" bounces="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="0.0" y="164" width="375" height="403"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="15"/>
+                        <outlet property="delegate" destination="-1" id="14"/>
+                    </connections>
+                </tableView>
+                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="From:" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="9" y="77" width="229" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="16"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To:" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                    <rect key="frame" x="9" y="116" width="229" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="17"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                    <rect key="frame" x="20" y="233" width="280" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" text="Fare - 0.0" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="19">
+                    <rect key="frame" x="199" y="599" width="78" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Time - 00:00 " textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                    <rect key="frame" x="41" y="599" width="111" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="20" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="41" id="2ts-gU-yHx"/>
+                <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="9O1-0H-vVN"/>
+                <constraint firstItem="18" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="BO1-Xi-OFW"/>
+                <constraint firstItem="19" firstAttribute="centerY" secondItem="20" secondAttribute="centerY" id="HY6-3c-3sZ"/>
+                <constraint firstItem="18" firstAttribute="top" secondItem="5" secondAttribute="bottom" id="IDm-MT-Yg9"/>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="RlZ-xU-T4o"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="4" secondAttribute="bottom" id="V7i-CJ-dKL"/>
+                <constraint firstItem="4" firstAttribute="top" secondItem="1" secondAttribute="top" constant="64" id="ara-C7-Gzd"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="20" secondAttribute="trailing" constant="47" id="dfS-se-vbv"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="jYn-R4-1hP"/>
+                <constraint firstAttribute="trailing" secondItem="4" secondAttribute="trailing" id="tey-27-fth"/>
+                <constraint firstAttribute="bottom" secondItem="18" secondAttribute="bottom" id="u8C-yf-NNX"/>
+                <constraint firstItem="20" firstAttribute="top" secondItem="5" secondAttribute="bottom" constant="32" id="yFz-9f-Oe0"/>
+                <constraint firstAttribute="trailing" secondItem="18" secondAttribute="trailing" id="zOP-iH-w9t"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="navigationBG.png" width="151" height="221"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
